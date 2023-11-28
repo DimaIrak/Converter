@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="css/styie.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <script defer src="js/skript.js"></script>
+</head>
+
+<body class="body">
+    <div class="container">
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Kantor złotóweczka</legend>
+                <p class="form__paragraph">
+                    <label class="form__label">
+                        <span class="form__labelText">Tyle mam PLN*:</span>
+                        <input type="number" required step="1" class="form__field js-amount" placeholder="wpisz kwotę"
+                            autofocus>
+                    </label>
+                </p>
+                <p>
+                    <label class="form__label">
+                        <span class="form__labelText">Tyle dostane EUR:<strong
+                                class="form__strong js-result"></strong></span>
+                    </label>
+                </p>
+                <p>
+                    <button class="form__button">Przelicz dla mnie</button>
+                    <button type="reset" class="form__button--special">wyczyść kwotę</button>
+                </p>
+                <p class="form__paragraph--another">
+                    *Pole obowiązkowe do wypełnienia
+                </p>
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+
+</html>

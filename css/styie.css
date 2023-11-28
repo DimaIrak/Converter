@@ -1,0 +1,18 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Lato', sans-serif;
+    background: url(https://i.postimg.cc/Bn16hs7H/pieniadze-monety-brazylijskie-kilka.jpg) center no-repeat;
+}
+
+.container {
+    max-width: 500px;
+    padding: 100px 20px;
+    margin: auto;
+}
