@@ -11,6 +11,7 @@ html {
     background: url(https://i.postimg.cc/Bn16hs7H/pieniadze-monety-brazylijskie-kilka.jpg) center no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .container {
