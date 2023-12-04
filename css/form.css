@@ -12,11 +12,7 @@
     border: 3px solid;
     color: darkcyan;
     border-radius: 50px;
-}
-
-.form__select {
-    max-width: 260px;
-    width: 100%;
+    width: 200px;
 }
 
 .form__paragraph {
@@ -41,6 +37,8 @@
 
 .form__labelText {
     display: inline-block;
+    width: 150px;
+    margin-right: 5px;
     padding: 5px;
     color: rgb(42, 106, 106);
 }
