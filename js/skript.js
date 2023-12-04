@@ -8,19 +8,19 @@ console.log("Witam wszystkich!");
 
         switch (currency) {
             case "GBP":
-                return amount / currency;
+                return amount / rateGBP;
 
             case "USD":
-                return amount / currency;
+                return amount / rateUSD;
 
             case "EUR":
-                return amount / currency;
+                return amount / rateEUR;
         }
     };
-    const updateResultText = (amount, result, currency) => {
+    const updateResultText = (result, currency) => {
 
         const resultElement = document.querySelector(".js-result");
-        resultElement.innerHTML = '<strong>${result.toFixed(2)} ${currency}</strong>';
+        resultElement.innerHTML = `<strong>${result.toFixed(2)} ${currency}</strong>`;
     };
 
     const onFormSubmit = (event) => {
@@ -34,7 +34,7 @@ console.log("Witam wszystkich!");
 
         const result = calculateResult(amount, currency);
 
-        updateResultText(amount, result, currency);
+        updateResultText(result, currency);
     };
 
     const init = () => {
