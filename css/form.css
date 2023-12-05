@@ -13,21 +13,18 @@
     color: darkcyan;
     border-radius: 50px;
     width: 200px;
+    margin: 20px 0;
 }
 
 .form__field:focus {
     color: blueviolet;
 }
 
-.form__paragraph {
-    padding-top: 30px;
-}
-
 .form__paragraph--anazer {
     text-align: center;
     color: rgb(1, 185, 124);
     font-size: 45px;
-    margin-top: -20px;
+    
 }
 
 .form__footer {
@@ -52,6 +49,7 @@
     margin-right: 5px;
     padding: 5px;
     color: rgb(42, 106, 106);
+    font-size: 19px;
 }
 
 .form__button {
@@ -87,6 +85,7 @@
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-color: blueviolet;
+    padding: 40px 20px;
 }
 
 .form__strong {
