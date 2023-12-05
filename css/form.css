@@ -15,6 +15,10 @@
     width: 200px;
 }
 
+.form__field:focus {
+    color: blueviolet;
+}
+
 .form__paragraph {
     padding-top: 30px;
 }
