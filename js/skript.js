@@ -2,9 +2,9 @@ console.log("Witam wszystkich!");
 
 {
     const calculateResult = (amount, currency) => {
-        const rateGBP = 4.93;
-        const rateUSD = 3.90;
-        const rateEUR = 4.42;
+        const rateGBP = 5.05;
+        const rateUSD = 3.98;
+        const rateEUR = 4.33;
 
         switch (currency) {
             case "GBP":
