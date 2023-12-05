@@ -20,7 +20,7 @@ console.log("Witam wszystkich!");
     const updateResultText = (result, currency) => {
 
         const resultElement = document.querySelector(".js-result");
-        resultElement.innerHTML = `<strong>${result.toFixed(2)} ${currency}</strong>`;
+        resultElement.innerHTML = `Dostane <strong>${result.toFixed(2)} ${currency}</strong>`;
     };
 
     const onFormSubmit = (event) => {
