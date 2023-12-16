@@ -3,4 +3,4 @@
 ## Demo
 https://dimairak.github.io/Converter/
 
-### Łatwy przelicznik walut
+### Easy currency converter
